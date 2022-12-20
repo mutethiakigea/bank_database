@@ -1,0 +1,17 @@
+CREATE TABLE bank (
+  account_number INTEGER PRIMARY KEY,
+  customer_name VARCHAR(255) NOT NULL,
+  balance DECIMAL(10, 2) NOT NULL
+);
+
+INSERT INTO bank (account_number, customer_name, balance)
+VALUES (1, 'John Smith', 1000.00),
+       (2, 'Jane Doe', 2000.00),
+       (3, 'Bob Johnson', 3000.00),
+       (4, 'Alice Williams', 4000.00),
+       (5, 'Mike Brown', 5000.00),
+       (6, 'Sara Davis', 6000.00),
+       (7, 'Chris Martin', 7000.00),
+       (8, 'Emily Thompson', 8000.00),
+       (9, 'Samuel Jackson', 9000.00),
+       (10, 'Emma Rodriguez', 10000.00);
